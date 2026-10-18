@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Avatar with initials AA">
+  <rect width="200" height="200" fill="#14213d"/>
+  <circle cx="100" cy="100" r="78" fill="none" stroke="#5fd1c8" stroke-width="4"/>
+  <text x="100" y="118" font-family="Georgia, serif" font-size="64" font-weight="700" text-anchor="middle" fill="#ffffff">AA</text>
+</svg>
