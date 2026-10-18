@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Ashir Ahmed</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html" class="active">Projects</a>
+  </nav>
+  <main>
+    <h1>Projects</h1>
+    <section class="card">
+      <img src="images/project-cloud.svg" alt="Diagram of a browser connecting to an EC2 server">
+      <h3>Project 1: Portfolio on EC2 with Apache</h3>
+      <p><span class="label">Description:</span> A multi-page portfolio website served by Apache on an Amazon EC2 instance (Lab 04).</p>
+      <p><span class="label">Technologies:</span> AWS EC2, Apache, Security Groups, HTML, CSS</p>
+      <p><span class="label">My contribution:</span> Launched and secured the instance, installed and configured Apache, and designed all pages.</p>
+      <a class="repo" href="https://github.com/ashirahmed/ec2-portfolio">GitHub repository</a>
+    </section>
+    <section class="card">
+      <img src="images/project-ml.svg" alt="Diagram of a small neural network with input, hidden, and output layers">
+      <h3>Project 2: Image Classifier with a CNN</h3>
+      <p><span class="label">Description:</span> A convolutional neural network that classifies small images into ten categories using the CIFAR-10 dataset.</p>
+      <p><span class="label">Technologies:</span> Python, TensorFlow, Keras, NumPy, Matplotlib</p>
+      <p><span class="label">My contribution:</span> Prepared the data, designed and trained the model, and evaluated accuracy with confusion matrices.</p>
+      <a class="repo" href="https://github.com/ashirahmed/cifar10-cnn-classifier">GitHub repository</a>
+    </section>
+    <section class="card">
+      <h3>Project 3: Movie Review Sentiment Analysis</h3>
+      <p><span class="label">Description:</span> A text classifier that labels movie reviews as positive or negative.</p>
+      <p><span class="label">Technologies:</span> Python, scikit-learn, pandas, NLTK</p>
+      <p><span class="label">My contribution:</span> Cleaned the text, built TF-IDF features, compared several models, and reported precision and recall.</p>
+      <a class="repo" href="https://github.com/ashirahmed/sentiment-analysis">GitHub repository</a>
+    </section>
+  </main>
+  <footer>&copy; 2026 Ashir Ahmed &middot; Hosted on Amazon S3</footer>
+</body>
+</html>
